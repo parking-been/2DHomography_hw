@@ -2,16 +2,13 @@
 develop ORB + RANSAC + homography algorithm to create a panorama image from the two inputs.
 <br/><br/>
 ## 연구 목표
-
 ORB와 RANSAC을 사용하여 2D homography computation을 진행시켜보자.<br/>
 이후 두 이미지를 올바르게 stitching 하는 것이 최종 연구 목표이다.<br/>
 <br/><br/>
 ## 개발 기간
-<br/>
 2023.10.23 ~ 2023.10.26 <br/>
 <br/><br/>
 ## 알고리즘
-
 1. ORB, BRIEF : image1 과 image2 의 key point 와 discriptor를 뽑는다.<br/>
 2. BFMatcher(Brute-Force Matcher) : image1과 image2의 key point를 matching해준다. with Hamming distance<br/>
 3. find Homography with RANSAC algorithm : 2번의 결과를 사용하여 homography matrix와 mask를 구한다.<br/>
@@ -19,7 +16,6 @@ ORB와 RANSAC을 사용하여 2D homography computation을 진행시켜보자.<b
 5. stitching two images : image1 과 image2를 이어 붙인다.
 <br/><br/>
 ## 실험 방법
-
 1. main.py과 같은 디렉토리에 존재하는 test3_1.jpg,test3_2.jpg, test5_1.jpg,test5_2.jpg, test6_1.jpg,test6_2.jpg 을 중 한쌍을 input값으로 설정한다. <br/>
 ex) image_1 = 'test5_1.jpg' ; image_2 = 'test5_2.jpg'
 
@@ -37,5 +33,5 @@ ex) image_1 = 'test5_1.jpg' ; image_2 = 'test5_2.jpg'
     result.jpg<br/><br/>
     <img src="https://github.com/parking-been/2DHomography_hw/assets/138093566/c986673c-6578-4d55-b09e-590468a98074" width="800" height="200"/><br/>
     result2.jpg<br/><br/>
-    <img src="https://github.com/parking-been/2DHomography_hw/assets/138093566/15e3ff1b-6ede-43c8-b398-34e6f87d81c8" width="700" height="200"/><br/>
+    <img src="https://github.com/parking-been/2DHomography_hw/assets/138093566/15e3ff1b-6ede-43c8-b398-34e6f87d81c8" width="650" height="200"/><br/>
     result3.jpg<br/><br/>
