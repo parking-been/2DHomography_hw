@@ -20,10 +20,10 @@ ORB와 RANSAC을 사용하여 2D homography computation을 진행시켜보자.<b
 ex) image_1 = 'test5_1.jpg' ; image_2 = 'test5_2.jpg'
 
 
-<img src="https://github.com/parking-been/2DHomography_hw/assets/138093566/57794094-8faa-4590-8f83-0de1b4134c62" width="400" height="200"/>
-<img src="https://github.com/parking-been/2DHomography_hw/assets/138093566/a50ee246-9a0e-4dfc-ad43-5b28178eddf9" width="400" height="200"/>
+    <img src="https://github.com/parking-been/2DHomography_hw/assets/138093566/57794094-8faa-4590-8f83-0de1b4134c62" width="400" height="200"/>
+  <img src="https://github.com/parking-been/2DHomography_hw/assets/138093566/a50ee246-9a0e-4dfc-ad43-5b28178eddf9" width="400" height="200"/>
 <br/>
-test6_1.jpg, test6_2.jpg
+    test6_1.jpg, test6_2.jpg
 <br/><br/>
 3. 이후 main.py 코드를 돌린 후, main.py 와 같은 디렉토리에 result.jpg, result2.jpg, result3.jpg 이라는 결과 이미지가 나올 것이다.<br/>
    ex) result.jpg : image1 과 image2의 matching result 를 시각화하여 보여준다.<br/>
