@@ -27,4 +27,11 @@ ex) image_1 = 'test5_1.jpg' ; image_2 = 'test5_2.jpg'
    ex) result.jpg : image1 과 image2의 matching result 를 시각화하여 보여준다.<br/>
        result2.jpg : result.jpg의 matching 중 better matching result 만을 선별하여 보여준다.<br/>
        result3.jpg : image1 과 image2의 stitching 한 이미지를 보여준다. <br/>
+
+       
     <img src="https://github.com/parking-been/2DHomography_hw/assets/138093566/c014891b-deb3-4991-9ca6-178e3735e6b0" width="800" height="200"/>
+    result.jpg
+    <img src="https://github.com/parking-been/2DHomography_hw/assets/138093566/c986673c-6578-4d55-b09e-590468a98074" width="800" height="200"/>
+    result2.jpg
+    <img src="https://github.com/parking-been/2DHomography_hw/assets/138093566/15e3ff1b-6ede-43c8-b398-34e6f87d81c8" width="800" height="200"/>
+    result3.jpg
