@@ -33,5 +33,9 @@ ex) image_1 = 'test5_1.jpg' ; image_2 = 'test5_2.jpg'
     result.jpg<br/><br/>
     <img src="https://github.com/parking-been/2DHomography_hw/assets/138093566/c986673c-6578-4d55-b09e-590468a98074" width="800" height="200"/><br/>
     result2.jpg<br/><br/>
-    <img src="https://github.com/parking-been/2DHomography_hw/assets/138093566/15e3ff1b-6ede-43c8-b398-34e6f87d81c8" width="650" height="200"/><br/>
+    <img src="https://github.com/parking-been/2DHomography_hw/assets/138093566/15e3ff1b-6ede-43c8-b398-34e6f87d81c8" width="600" height="200"/><br/>
     result3.jpg<br/><br/>
+
+## 결과
+result 파일에 test3, test5, test6를 진행한 result 이미지들이 담겨있다.
+<br/>
